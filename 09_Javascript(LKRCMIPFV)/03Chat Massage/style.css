@@ -1,0 +1,23 @@
+.box{
+    background-color: whitesmoke;
+    overflow: auto;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    border: 2px solid black;
+}
+.box-chat{
+    width: 250px;
+    height: 250px;
+}
+.box-input{
+    background-color: whitesmoke;
+    overflow: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid black;
+}
+input{
+    width: 210px;
+}

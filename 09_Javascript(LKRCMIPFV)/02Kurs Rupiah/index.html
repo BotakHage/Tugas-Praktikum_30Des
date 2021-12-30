@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Rupiah</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="kurs.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Kurs Rupiah - Mata Uang Asing</legend>
+        <table border="1">
+        <thead>
+            <tr>
+                <td>Masukan Nilai</td>
+                <td>Valas</td>
+                <td>Nilai Rupiah</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- input nilai -->
+                <td>
+                    <input type="text" id="nilai"/>
+                </td>
+                <!-- end input nilai -->
+
+                <!-- pilihan -->
+                <td>
+                    <select onchange="duit()" id="pilihan">
+                        <option value="1">Dollar US</option>
+                        <option value="2">Dollar Singapore</option>
+                        <option value="3">Ringgit Malaysia</option>
+                        <option value="4">Yen Jepang</option>
+                        <option value="5">Euro</option>
+                        <option value="6">Riyal Arab Saudi</option>
+                    </select>
+                </td>
+                <!-- end pilihan -->
+
+                <!-- output -->
+                <td>
+                    <input type="text" id="out" disabled/>
+                </td>
+                <!-- end output -->
+            </tr>
+        </tbody>
+        </table>
+    </fieldset>
+</body>
+</html>

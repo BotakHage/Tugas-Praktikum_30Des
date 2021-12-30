@@ -1,0 +1,11 @@
+input,select{
+    margin-bottom: 20px;
+ }
+ img{
+     width: 20px;
+ }
+ fieldset{
+    width: 20%;
+    padding:10px;
+    margin:auto;
+ }

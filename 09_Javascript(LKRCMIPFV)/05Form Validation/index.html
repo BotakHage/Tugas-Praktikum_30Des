@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+         <legend><h1>Form Validasi</h1></legend>
+
+        <form action="" id="validasi">
+            Nama:
+            <br>
+            <input type="text" name="name" id="nama" size="30" required maxlength="30">
+            <br>
+
+            Email:
+            <br>
+            <input type="email" name="" id="email" size="30" required><br>
+
+            Jam Keberangkatan: 
+            <br>
+            <input type="time" name="" id="jam" required><br>
+
+            Tujuan Keberangkatan:
+            <br>
+            <input type="text" name="" id="tujuan" size="30" required><br>
+
+            Jumlah Tiket:
+            <br>
+            <select id="tiket" required>
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="hasil"></div>
+
+    </fieldset>
+
+    <script src="skrip.js"></script>
+
+</body>
+</html>

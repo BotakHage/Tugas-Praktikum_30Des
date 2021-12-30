@@ -1,0 +1,9 @@
+table{
+    width: 100%;
+    text-align: center;
+}
+fieldset{
+    width: 50%;
+    padding:10px;
+    margin:auto;
+}
